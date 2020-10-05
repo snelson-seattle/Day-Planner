@@ -34,11 +34,6 @@ textarea {
   white-space: pre-wrap;
 }
 
-.time-block {
-  text-align: center;
-  border-radius: 15px;
-}
-
 .row {
   white-space: pre-wrap;
   height: 80px;
@@ -46,13 +41,13 @@ textarea {
 }
 
 .col-1.left { 
-  background-color: whitesmoke;
-  border-top: 2px dashed gray;
-  border-bottom: 2px dashed gray;
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
 }
 
 .col-1.right {
-  background-color: lightseagreen;
+  background-color: #06AED5;
   border-top: 2px solid whitesmoke;
   border-left: 2px solid whitesmoke;
   border-bottom: 2px solid whitesmoke;
@@ -63,15 +58,9 @@ textarea {
 }
 
 .col-10 {
-  background-color: lightgray;
+  background-color: white;
   border-top: 2px solid whitesmoke;
   border-bottom: 2px solid whitesmoke;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
 }
 
 .past {
@@ -89,8 +78,7 @@ textarea {
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
+.saveBtn {  
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
@@ -100,4 +88,10 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+#currentDay {
+  font-size: 2.0rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
