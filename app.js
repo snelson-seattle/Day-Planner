@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    // 24 Hour clock variables
+    const workStart = 9;
+    const workEnd = 17;
+
     // Capture UI Elements
     let currentDay = $("#currentDay");
 
@@ -51,7 +55,7 @@ function saveEvent(){
 }
 
 function updateUI(){   
-    for(let i = 9; i <= 17; i++){
+    for(let i = workStart; i <= workEnd; i++){
         let eventBlock = $("#"+ i);
         if(parseInt(eventBlock.attr("data-time")) < parseInt(moment().format('k'))){
             eventBlock.addClass("past");
@@ -64,7 +68,7 @@ function updateUI(){
 }
 
 function loadEvents(){
-    for(let i = 9; i <= 17; i++){
+    for(let i = workStart; i <= workEnd; i++){
         let event = $("#" + i + "-event");
         event.val(localStorage.getItem(i));
     }
