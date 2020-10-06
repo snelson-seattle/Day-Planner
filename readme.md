@@ -40,3 +40,13 @@ THEN the saved events persist
 ### Working Application
 
 ![Running Application](/pics/app.jpg)
+
+### Application Description
+
+Application displays 1 hour time blocks from 9 AM to 5 PM that are color coded depending on the
+time of day, which is displayed at the top of the page. If hour blocks from previous hours are 
+displayed in gray and no new events can be saved in those blocks. The current hour is displayed 
+in red, and future hours are displayed in green. User types event information into an available
+time block and then clicks the save button on the right of the time block to save the event. 
+When an event is saved, it will be stored in local storage and will be recalled when the page is
+reloaded.
