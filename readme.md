@@ -1,6 +1,6 @@
 # Day-Planner Application
 
-## Objective - Create a day-planner application that will allow user to create events for each hour of the workday.
+## Objective - Create a day-planner application that will allow user to create events for each hour of the workday that will persist through page reloads.
 
 #### Author - Scott Nelson
 
