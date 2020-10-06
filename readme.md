@@ -37,3 +37,6 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
+### Working Application
+
+![Running Application](./pics/app.jpg)
