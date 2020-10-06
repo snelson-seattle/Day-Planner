@@ -5,9 +5,9 @@
 #### Author - Scott Nelson
 
 #### APIs Used
--Bootstrap
--jQuery
--Moment.js
+- Bootstrap
+- jQuery
+- Moment.js
 
 ### User Story
 
