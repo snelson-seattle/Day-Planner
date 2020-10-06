@@ -39,4 +39,4 @@ THEN the saved events persist
 
 ### Working Application
 
-![Running Application](./pics/app.jpg)
+![Running Application](/pics/app.jpg)
